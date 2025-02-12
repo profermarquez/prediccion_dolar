@@ -28,5 +28,8 @@ pip install pandas
 
 pip install statsmodels 
 
+# Ejecutar
+py get_info_dolar.py
+
 # Libreria
 https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.html
