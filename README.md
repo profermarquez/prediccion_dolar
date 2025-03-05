@@ -2,7 +2,7 @@
 Buscamos obtener los datos históricos de la cotización del dólar blue en Argentina utilizando 
 web scraping con Python. Sitios como Ámbito. Una vez obtenidos los datos, es importante realizar un análisis exploratorio para comprender su comportamiento estadístico, para mas adelante simular un paseo aleatorio que represente posibles trayectorias futuras de la cotización del dólar.
 
-La Simulación de Random Walk se encuentra en la parte PASO 3
+La Simulación de Random Walk se encuentra en la parte 3
 Donde toma el último precio registrado (ultimo_precio = precios.iloc[-1]).
 , calcula el rendimiento promedio diario (media_rendimiento = precios.pct_change().dropna().mean()).
 , computamos la volatilidad (desviación estándar) (std_rendimiento = precios.pct_change().dropna().std()).
